@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /* global style start */
+  .button_style {
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #0A192F;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    border: none;
+    padding: 30px 50px;
+    margin-top: 30px;
+    border-radius: 20px;
+  }
+
+/* header section start  */
+.header_section{
+    padding: 400px 200px;
+    /* margin: 200px; */
+    /* background-color: #232a34;     */
+    text-align: center;    
+    background-image:url(images/table.jpg);
+    background-position: cover;
+    background-size:cover;
+    
+}
+
+.header_section h1{
+    color:#0A192F;
+    font-size: 90px;
+    text-align: center;
+    
+}
+.header_section p{
+  text-align: center;
+    padding-top:20px;
+    color:#0a192f8a;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 2px;
+    
+}
+
+/* header section end */
+
+/* content section start  */
+
+.content{
+  background-color:#0A192F;
+  color:white;
+  height: 100%;
+  width: 100%;
+    /* margin: 200px; */
+    text-align: center;
+}
+
+.content_btn{
+  background-color: white;
+  color:#0A192F;
+
+}
+.content h2{
+  font-size: 60px;
+  width: 50%;
+  padding-top:50px; 
+  margin: auto; 
+}
+
+.content p{
+  font-size: 36px;
+  width: 50%;
+  padding:10px; 
+  margin: auto;   
+}
+
+.group{
+  height: 800px;
+}
+.group h4{
+  font-size: 30px;
+  padding-top: 20px;
+  /* width: 50%; */
+  margin: auto;   
+  font-weight: ;
+  padding-bottom:10px;
+}
+
+
+.group p{
+  font-size:25px;
+  
+  padding-top:0px;
+  /* width: 50%; */
+  margin: auto;   
+  font-weight:700;
+  color:#7eb0fa;
+  padding-bottom:10px;
+}
+
+.content .team1{
+  width: 50%;
+  padding-top:50px; 
+  margin: auto; 
+}
+.content .team1 .left{
+  float:left;
+  width: 50%;  
+}
+.content .team1 .left img {
+  width: 40%;
+  border-radius: 50%;
+}
+.content .team1 .right{
+  float: right;
+  width: 50%;
+}
+.content .team1 .right img {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.content .team2{
+  width: 50%;
+  padding-top:50px;   
+  margin: auto; 
+
+}
+
+
+.content .team2 .left{
+  float:left;  
+  width: 50%;
+}
+.content .team2 .left img {
+  width: 40%;
+  border-radius: 50%;
+}
+.content .team2 .right{
+  float:right;  
+  width: 50%;
+}
+.content .team2 .right img {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* content section end  */
+
+/* project section start  */
+.projects{
+  padding:200px 200px;  
+  height: 1080px;
+  width: 100%;
+  text-align: center;
+}
+.submit_btn{
+  margin-top: 10%;
+  margin-right: 30%;
+}
+.projects h1{
+  font-size: 60px;
+  margin-bottom: 100px;
+  text-align: center;
+  color: #0A192F;
+  font-weight:700;
+}
+
+
+
+.left_site img{
+  width:30%;
+  float:left;
+  border: 2px solid black;
+}
+
+.center_site img{
+  margin-left: 85px;
+  width:30%;
+  float:left;  
+  border: 2px solid black;
+}
+
+.right_site img{
+  
+  /* margin-left: 100px; */
+  width:30%;
+  float:right;  
+  border: 2px solid black;
+}
+
+
+/* project section end  */
+
+
+/* Speciality start  */
+
+.speciality {
+  background-color: #0A192F;
+  color:white;
+  padding:100px 100px;  
+  height: 1100px;
+  width: 100%;
+  text-align: center;
+}
+.speciality h1{
+  font-size: 60px;
+  margin-bottom: 100px;
+  text-align: center;
+  color: white;
+  font-weight:700;
+}
+
+ul.list {
+  list-style-type: none;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 300%;
+}
+
+li{
+  
+  border-bottom: 1px solid white;
+  width: 50%;
+  text-align: center;
+  margin:auto;
+}
+
+/* Speciality End  */
+
+/* contact section start  */
+.contact{
+  background-color: white;
+  color:#0A192F;
+  padding:100px 100px;  
+  height: 50%;
+  width: 100%;
+  text-align: center;
+}
+.contact h1{
+  font-size: 60px;
+  font-weight: 700;
+}
+.contact form{
+  margin-top:100px;
+}
+
+.contact form input {
+  margin-top: 10px;
+  padding: 20px;
+  width: 30%;
+  background-color: #0A192F;
+  border: none;
+  border-bottom: 2px solid red;
+}
+.contact_btn{
+  background-color: #0A192F;
+  color:#fff;
+  border-radius: 10px;
+  padding: 20px 30px;
+
+}
+/* contact section end  */
+
